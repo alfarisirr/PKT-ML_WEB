@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/PKT-AT/style.css">
+    <link rel="icon" href="/PKT-AT/img/icon/au1.png">
+</head>
+<style>
+    body {
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+      background-image: url(/PKT-AT/img/backgorund.jpg);
+    }
+
+    h1 {
+      text-align: center;
+      margin: 40px 0 20px;
+      color: #333;
+    }
+
+    .team-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      border-radius: 15px;
+      overflow: hidden;
+      width: 250px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+      color: #333;
+    }
+
+    .card-content h3 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    .card-content p.role {
+      font-weight: bold;
+      margin: 5px 0 10px;
+    }
+
+    .card-content p.desc {
+      font-size: 18px;
+      color: #333;
+    }
+
+    /* Warna background gradient berbeda tiap kartu */
+    .card:nth-child(2) {
+      background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    }
+
+    .card:nth-child(3) {
+      background: linear-gradient(135deg, #fccb90, #d57eeb);
+    }
+
+    .card:nth-child(4) {
+      background: linear-gradient(135deg, #84fab0, #8fd3f4);
+    }
+    
+    .card-content a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #333;
+      font-size: 2em; /* Atur ukuran ikon */
+      text-align: center;
+    }
+
+    .card-content {
+      text-align: center; /* Tengahkan isi dalam .card-content */
+    }
+
+    .card-content a:hover{
+      font-size: 2.5em;
+      transform: 2s;
+      background-color: #e0f7fa;
+    }
+
+  </style>
+</style>
+
+<body>
+    <div class="container">
+        <main>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                <label class="logo"><a href="#" style="text-decoration: none;">KELOMPOK 4</a></label>
+                
+                <ul>
+                    <li><a href="/PKT-AT/index.html">Home</a></li>
+                    <li><a href="/PKT-AT/materi/index.html">Materi</a></li>
+                    <li><a class="active" href="/PKT-AT/contact/index.html">About Us</a></li>
+                </ul>
+            </nav>
+            <br><br><br><br>
+
+
+             <h1>Anggota Kelompok 4</h1>
+
+  <div class="team-container">
+    <div class="card">
+      <img src="/PKT-AT/img/foto/kirana1" >
+      <div class="card-content">
+        <h3>Farras Kirana</h3>
+        <p class="role">Mencari Foto</p>
+        <p class="desc">imut, cantik, menakjubkan.</p><br>
+        <a href="https://instagram.com/frrskirana" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@f4yyas" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:farraskiranabilla07@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/PKT-AT/img/foto/marvel1.jpg" >
+      <div class="card-content">
+        <h3>Marvelino Ilham </h3>
+        <p class="role">Masukin Gambar</p>
+        <p class="desc">trading, invest, keren, pusing.</p><br>
+        <a href="https://instagram.com/mrvl.ino" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@marvvpublicee" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:marvelinoilhamleroy2927@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/PKT-AT/img/foto/ihsan1.jpg" >
+      <div class="card-content">
+        <h3>Muhammad Ihsan</h3>
+        <p class="role">Masukin Link</p>
+        <p class="desc">setiap hari adalah kesempatan baru.</p><br>
+        <a href="https://instagram.com/isannn____" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@pluggggggg_isannn._" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:mohihsan702@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/PKT-AT/img/foto/ramdani1.jpg">
+      <div class="card-content">
+        <h3>Ramdani</h3>
+        <p class="role">Mencari Referensi</p>
+        <p class="desc">suka cisco, fast respon, penyabar, santai.</p><br>
+        <a href="https://instagram.com/ramdaniiii19" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@ramdaniii_19" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:ramdhaniramdhani073@gmail.com"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/PKT-AT/img/foto/rf7.jpg" >
+      <div class="card-content">
+        <h3>Rafa</h3>
+        <p class="role">Mas Splicing</p>
+        <p class="desc">fiber optik, slow respon, gajelas, repeat.</p><br>
+        <a href="https://instagram.com/rafa.frsi" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@xyrosss10  " target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:alfarisir616@gmail.com"><i class="fa fa-envelope"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+
+     <section class="footer">
+        <div class="social">
+          <a href="https://www.instagram.com/rafa.frsi/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/alfarisir616" target="_blank"><i class="fab fa-x"></i></a>
+          <a href="https://github.com/alfarisirr" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+
+        <p align="center"><b>Dibuat Oleh Kelompok 4 &copy 2025</b></p>
+
+    </section>
+        </div>

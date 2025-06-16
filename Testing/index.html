@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code The Scene - Kartu Profil</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f2f2f2;
+    }
+    h1 {
+      text-align: center;
+    }
+
+    .challenge {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .target-card {
+      background: white;
+      width: 250px;
+      margin: 0 auto 10px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .target-card img {
+      width: 80px;
+      border-radius: 50%;
+    }
+
+    .target-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .target-card button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      font-family: monospace;
+      margin-top: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎯 Code The Scene</h1>
+  <div class="challenge">
+    <p>Tantangan kamu: Buat kartu profil seperti contoh di bawah ini!</p>
+    <div class="target-card">
+      <img src="https://i.pravatar.cc/80" alt="Foto Profil">
+      <h3>Andi Developer</h3>
+      <p>Frontend Enthusiast</p>
+      <button>Follow</button>
+    </div>
+  </div>
+
+  <h2>✏️ Kode Kamu:</h2>
+  <textarea id="code-input">
+<!-- Mulai koding di sini -->
+<div style="background: white; padding: 20px; border-radius: 10px; width: 250px; text-align: center;">
+  <img src="https://i.pravatar.cc/80" style="border-radius: 50%;">
+  <h3>Andi Developer</h3>
+  <p>Frontend Enthusiast</p>
+  <button style="background: #007bff; color: white; border: none; padding: 8px 12px; border-radius: 6px;">Follow</button>
+</div>
+  </textarea>
+  <button onclick="jalankanKode()">💡 Jalankan Kode</button>
+
+  <h3>🖥️ Hasil:</h3>
+  <iframe id="preview-frame"></iframe>
+
+  <script>
+    function jalankanKode() {
+      const kode = document.getElementById('code-input').value;
+      document.getElementById('preview-frame').srcdoc = kode;
+    }
+  </script>
+
+</body>
+</html>
